@@ -1,0 +1,164 @@
+[HEADER]
+Title=SCEN06 Title
+Description=SCEN06 Description
+
+Difficulty Rating=100
+
+[ENVIRONMENT]
+Number of Cities=5
+Your Start-up Capital=High
+Random Events=Occasional 
+Game Starting Year=1990
+Retail Store Type=Many
+Technology Disruption=On
+Stock Market=Yes
+Alternative Stock Sim=Yes
+Boom-Bust Cycle Volatility=Moderate
+Macro Economy Realism=High
+Inflation=Inverse
+Inflation Strength=Normal
+
+[COMPETITORS]
+Number of Competitors=20
+Competitor Start-up Capital=Moderate  
+AI Expansion Aggressiveness=Moderate 
+AI Pricing Aggressiveness=Moderate 
+AI Expertise Level=Moderate
+AI Tech Head Start=None
+Show Competitor Trade Secrets=Yes
+AI Friendly Merger=No
+Competence of Local Competitors=Moderate 
+
+[IMPORTS]
+Consumer Goods Seaports=2
+Industrial Goods Seaports=2
+Constant Import Supply=No
+Import Quality=High 
+
+//-------------------------------------------------------------------
+
+[MAIN GOAL]
+Goal Title=Ultimate Goal
+Goal Description=SCEN06 GD0
+
+Number of Game Years=80
+
+[MAIN GOAL VALUES]
+Player Company Annual Revenue=1000
+Player Company Annual Profit=100
+Stock Price=500
+
+[MAIN GOAL REWARDS] 
+Score change=200
+
+//-------------------------------------------------------------------
+
+[SUBGOAL]
+Goal Title=Growth Expectation 1
+Goal Description=SCEN06 GD1
+Goal Achieved Text=SCEN06 GAT1
+Goal Failed Text=SCEN06 GFT1
+
+Number of Game Years=10
+
+[SUBGOAL VALUES]
+Player Company Annual Revenue=100
+Player Company Annual Profit=10
+Stock Price=50
+
+[SUBGOAL REWARDS] 
+Score change=50
+COO expertise change=manufacturing, 20 
+CTO expertise change=research and development, 20 
+CMO expertise change=marketing, 20 
+Personal Cash Change=5
+
+[SUBGOAL PENALTIES] 
+COO salary modifier=50
+Staff attitude change=COO, -100
+Staff resign=COO
+
+CTO salary modifier=50
+Staff attitude change=CTO, -100
+Staff resign=CTO
+
+CMO salary modifier=50
+Staff attitude change=CMO, -100
+Staff resign=CMO
+
+//-------------------------------------------------------------------
+
+[SUBGOAL]
+Goal Title=Growth Expectation 2
+Goal Description=SCEN06 GD2
+Goal Achieved Text=SCEN06 GAT2
+Goal Failed Text=SCEN06 GFT2
+
+Number of Game Years=20
+
+[SUBGOAL VALUES]
+Player Company Annual Revenue=200
+Player Company Annual Profit=20
+Stock Price=100
+
+[SUBGOAL REWARDS] 
+Score change=75
+COO expertise change=manufacturing, 20 
+CTO expertise change=research and development, 20 
+CMO expertise change=marketing, 20 
+Personal Cash Change=10
+
+[SUBGOAL PENALTIES] 
+COO salary modifier=75
+Staff attitude change=COO, -100
+Staff resign=COO
+
+CTO salary modifier=75
+Staff attitude change=CTO, -100
+Staff resign=CTO
+
+CMO salary modifier=75
+Staff attitude change=CMO, -100
+Staff resign=CMO
+
+//-------------------------------------------------------------------
+
+[SUBGOAL]
+Goal Title=Growth Expectation 3
+Goal Description=SCEN06 GD3
+Goal Achieved Text=SCEN06 GAT3
+Goal Failed Text=SCEN06 GFT3
+
+Number of Game Years=30
+
+[SUBGOAL VALUES]
+Player Company Annual Revenue=400
+Player Company Annual Profit=40
+Stock Price=200
+
+[SUBGOAL REWARDS] 
+Score change=100
+COO expertise change=manufacturing, 20 
+CTO expertise change=research and development, 20 
+CMO expertise change=marketing, 20 
+Personal Cash Change=15
+
+[SUBGOAL PENALTIES] 
+COO salary modifier=100
+Staff attitude change=COO, -100
+Staff resign=COO
+
+CTO salary modifier=100
+Staff attitude change=CTO, -100
+Staff resign=CTO
+
+CMO salary modifier=100
+Staff attitude change=CMO, -100
+Staff resign=CMO
+
+//-------------------------------------------------------------------//
+
+[CHALLENGE GAME]
+Number of Game Years=30
+Ranking Method=Score
+

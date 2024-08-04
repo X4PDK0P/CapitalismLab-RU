@@ -1,0 +1,95 @@
+[HEADER]
+Title=SCEN13 Title
+Description=SCEN13 Description
+
+Difficulty Rating=130
+
+[ENVIRONMENT]
+Number of Cities=5
+Your Start-up Capital=Moderate
+Random Events=Occasional
+Game Starting Year=1990
+Retail Store Type=Many
+Technology Disruption=On
+Stock Market=Yes
+Alternative Stock Sim=Yes
+Boom-Bust Cycle Volatility=Moderate
+Macro Economy Realism=High
+Inflation=Inverse
+Inflation Strength=Normal
+
+[COMPETITORS]
+Number of Competitors=30
+Competitor Start-up Capital=High
+AI Expansion Aggressiveness=High
+AI Pricing Aggressiveness=Moderate
+AI Expertise Level=High
+AI Tech Head Start=None
+Show Competitor Trade Secrets=Yes
+AI Friendly Merger=Yes
+Competence of Local Competitors=Moderate
+
+[IMPORTS]
+Consumer Goods Seaports=2
+Industrial Goods Seaports=2
+Constant Import Supply=No
+Import Quality=Moderate
+
+[PLAYER EXPERTISE]
+Product Expertise=Photography Products, 100
+
+[LOCKS]
+Product=All
+
+[UNLOCKS]
+Product=Photography Products
+
+//-------------------------------------------------------------------//
+
+[SUBGOAL]
+Goal Title=Market Leader
+Goal Description=SCEN13 GD1
+Goal Achieved Text=SCEN13 GAT1
+
+Number of Game Years=20
+
+[SUBGOAL VALUES]
+Player Company Annual Revenue=200
+Player Company Annual Profit=20
+
+[SUBGOAL PRODUCTS]
+Photography Products
+
+[SUBGOAL REWARDS]
+Score change=150
+Corporate cash change=100
+Unlock product=All
+
+//-------------------------------------------------------------------//
+
+[MAIN GOAL]
+Goal Title=Consumer Electronics Giant
+Goal Description=SCEN13 GD0
+
+Number of Game Years=40
+
+Parent Goal=Market Leader
+
+[MAIN GOAL VALUES]
+Player Company Annual Revenue=1500
+Player Company Annual Profit=150
+
+[MAIN GOAL PRODUCTS]
+Photography Products
+Electronic Products
+Communication Devices
+
+[MAIN GOAL REWARDS]
+Score change=350
+
+//-------------------------------------------------------------------//
+
+[CHALLENGE GAME]
+Number of Game Years=30
+Ranking Method=Score
+

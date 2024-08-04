@@ -1,7 +1,8 @@
 [HEADER]
-Title=Fashion Venture 
-Description=На протяжении многих лет вы пытались привлечь капитал для своего стартапа в индустрии моды. К сожалению, процесс поиска инвесторов труден и медлен, так что, скорее всего, на момент запуска вашей компании (предпол. в 2000 г.) на рынке уже будут конкуренты. Есть ли у вас все что требуется для того, чтобы занять нишу с вашим новым модным брендом и процветать на рынке?
-Difficulty Rating=80
+Title=SCEN01 Title
+Description=SCEN01 Description
+
+Difficulty Rating=110
 
 [ENVIRONMENT]
 Number of Cities=4
@@ -12,6 +13,7 @@ Retail Store Type=Many
 Technology Disruption=On
 Stock Market=Yes
 Alternative Stock Sim=Yes
+Boom-Bust Cycle Volatility=Moderate
 Macro Economy Realism=High
 Inflation=Inverse
 Inflation Strength=Normal
@@ -25,12 +27,13 @@ City=Miami
 [COMPETITORS]
 Number of Competitors=20
 Competitor Start-up Capital=Moderate  
-Competitor Aggressiveness=Moderate  
-Competitor Expertise Level=Moderate
+AI Expansion Aggressiveness=Low
+AI Pricing Aggressiveness=Low 
+AI Expertise Level=Low
+AI Tech Head Start=None
 Show Competitor Trade Secrets=Yes
 AI Friendly Merger=No
-Competence of Local Competitors=Moderate 
-
+Competence of Local Competitors=Low
 
 Retail Focused Companies=4
 Stock Focused Companies=2
@@ -39,13 +42,13 @@ Tech Focused Companies=2
 Media Focused Companies=2
 Diversified Companies=13
 
-AI Product Expertise=Apparel,2
-//of the 13 diversified companies, 2 of them have expertise in apparel 
+AI Product Expertise=Apparel,1
+//of the 13 diversified companies, 1 of them have expertise in apparel
 
 [IMPORTS]
 Consumer Goods Seaports=2
 Industrial Goods Seaports=2
-Constant Import Supply=No
+Constant Import Supply=Yes
 Import Quality=Moderate 
 
 [PLAYER EXPERTISE] 
@@ -58,9 +61,8 @@ Years of Advanced Start for AI=5
 
 [SUBGOAL]
 Goal Title=Launching a New Brand 
-Goal Description=Facing tough competition from established fashion companies, your near term goal is to stay afloat and curve out a niche with your new fashion brand.
-
-Goal Achieved Text=Congratulations! Your company's performance has impressed investors and led to a new round of investment of $100 million into your company!   
+Goal Description=SCEN01 GD1
+Goal Achieved Text=SCEN01 GAT1
 
 [SUBGOAL VALUES]
 Player Company Annual Revenue=100
@@ -74,9 +76,8 @@ Corporate cash change=10
 
 [SUBGOAL]
 Goal Title=Growing Your Business
-Goal Description=Having secured a foothold in the market with your brand and strengthened your war chest with the new investment, you can now afford to expand your business aggressively and seize market shares from your competitors. 
-
-Goal Achieved Text=Excellent! You have developed your company into a force to be reckoned with! 
+Goal Description=SCEN01 GD2
+Goal Achieved Text=SCEN01 GAT2
 
 Parent Goal=Launching a New Brand 
 
@@ -92,9 +93,8 @@ Personal Cash Change=5
 
 [SUBGOAL]
 Goal Title=Market Leadership
-Goal Description=Thanks to your recent rounds of successful expansions, you are now in a position to take another leap and eventually become the market leader in the apparel industry.
-
-Goal Achieved Text=Congratulations! You have come a long way since your humble beginning! 
+Goal Description=SCEN01 GD3
+Goal Achieved Text=SCEN01 GAT3
 
 Parent Goal=Growing Your Business 
 
@@ -108,12 +108,11 @@ Apparel
 [SUBGOAL REWARDS] 
 Score change=150
 
-
 //-------------------------------------------------------------------//
 
 [MAIN GOAL]
-Goal Title=Fashion Dominance 
-Goal Description=The leather product market is highly lucrative, you should leverage your success in the fashion market to broaden your product lines to cover leather products. You win this game when you achieve market dominance in both apparel and leather products. 
+Goal Title=Fashion Dominance
+Goal Description=SCEN01 GD0
 
 Number of Game Years=20
 

@@ -1,0 +1,132 @@
+[HEADER]
+Title=SCEN05 Title
+Description=SCEN05 Description
+
+Difficulty Rating=100
+
+[ENVIRONMENT]
+Number of Cities=4
+Your Start-up Capital=High
+Random Events=Occasional 
+Game Starting Year=1990
+Retail Store Type=Many
+Technology Disruption=On
+Stock Market=Yes
+Alternative Stock Sim=Yes
+Boom-Bust Cycle Volatility=Moderate
+Macro Economy Realism=High
+Inflation=Inverse
+Inflation Strength=Normal
+
+[CITIES]
+City=London 
+City=Shanghai
+City=San Francisco
+City=Vancouver
+
+[COMPETITORS]
+Number of Competitors=30
+Competitor Start-up Capital=High  
+AI Expansion Aggressiveness=High
+AI Pricing Aggressiveness=Moderate 
+AI Expertise Level=High
+AI Tech Head Start=None
+Show Competitor Trade Secrets=Yes
+AI Friendly Merger=Yes
+Competence of Local Competitors=Moderate 
+
+[IMPORTS]
+Consumer Goods Seaports=2
+Industrial Goods Seaports=2
+Constant Import Supply=No
+Import Quality=Moderate 
+
+[PLAYER EXPERTISE] 
+Retailing=50
+Product Expertise=Toy, 100
+
+//-------------------------------------------------------------------//
+
+[SUBGOAL]
+Goal Title=Toy Dominance
+Goal Description=SCEN05 GD1
+Goal Achieved Text=SCEN05 GAT1
+
+[SUBGOAL VALUES]
+Player Company Annual Revenue=50
+Player Company Annual Profit=10
+
+[SUBGOAL PRODUCTS]
+Toy
+
+[SUBGOAL REWARDS] 
+Score change=100
+Player expertise change=research and development, 20
+Tech Change=Television, 50
+Instant Invention=Camera Phone
+
+//-------------------------------------------------------------------//
+
+[SUBGOAL]
+Goal Title=Entering New Markets
+Goal Description=SCEN05 GD2
+Goal Achieved Text=SCEN05 GAT2
+
+Parent Goal=Toy Dominance 
+
+[SUBGOAL VALUES]
+Player Company Annual Revenue=200
+Player Company Annual Profit=30
+
+[SUBGOAL PRODUCTS]
+Electronic Products
+Communication Devices 
+
+[SUBGOAL REWARDS] 
+Score change=150
+Personal Cash Change=5
+
+//-------------------------------------------------------------------//
+
+[SUBGOAL]
+Goal Title=Lofty Revenue Target
+Goal Description=SCEN05 GD3
+Goal Achieved Text=SCEN05 GAT3
+
+Parent Goal=Entering New Markets
+
+[SUBGOAL VALUES]
+Controlled Companies Annual Revenue=2000
+
+[SUBGOAL REWARDS] 
+Score change=200
+Personal Cash Change=10
+
+//-------------------------------------------------------------------//
+
+[MAIN GOAL]
+Goal Title=Gadget Tycoon
+Goal Description=SCEN05 GD0
+
+Number of Game Years=20
+
+Parent Goal=Lofty Revenue Target
+
+[MAIN GOAL VALUES]
+Controlled Companies Annual Revenue=2000
+Ownership=80
+
+[MAIN GOAL PRODUCTS]
+Toy
+Electronic Products
+Communication Devices 
+
+[MAIN GOAL REWARDS] 
+Score change=300
+
+//-------------------------------------------------------------------//
+
+[CHALLENGE GAME]
+Number of Game Years=30
+Ranking Method=Score
+

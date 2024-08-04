@@ -1,8 +1,8 @@
 [HEADER]
-Title=Food and Beverage
-Description=У вас прекрасная репутация в пищевой промышленности и производстве напитков. Теперь вы начинаете свой собственный бизнес и привлекли десятки миллионов от инвесторов.^^Вы пообещали инвесторам удерживать фокус на пище и напитках на раннем этапе роста.^^После того, как вы достигнете доминирования в этих областях, перед вами предстанут более масштабные и трудные задачи.
+Title=SCEN04 Title
+Description=SCEN04 Description
 
-Difficulty Rating=100
+Difficulty Rating=80
 
 [ENVIRONMENT]
 Number of Cities=4
@@ -13,6 +13,7 @@ Retail Store Type=Many
 Technology Disruption=On
 Stock Market=Yes
 Alternative Stock Sim=Yes
+Boom-Bust Cycle Volatility=Moderate
 Macro Economy Realism=High
 Inflation=Inverse
 Inflation Strength=Normal
@@ -24,12 +25,14 @@ City=Paris
 City=Miami
 
 [COMPETITORS]
-Number of Competitors=20
+Number of Competitors=25
 Competitor Start-up Capital=Moderate  
-Competitor Aggressiveness=Moderate  
-Competitor Expertise Level=Moderate
+AI Expansion Aggressiveness=Moderate 
+AI Pricing Aggressiveness=Moderate 
+AI Expertise Level=Moderate
+AI Tech Head Start=None
 Show Competitor Trade Secrets=Yes
-AI Friendly Merger=No
+AI Friendly Merger=Yes
 Competence of Local Competitors=Moderate 
 
 [IMPORTS]
@@ -55,9 +58,8 @@ Product=Snacks
 
 [SUBGOAL]
 Goal Title=Food and Beverage Dominance
-Goal Description=Lead your corporation to achieve market dominance in the food and beverage and deliver outstanding financial returns to your investors. (You are limited to production of beverage, food and snacks until you have achieved this goal.)
-
-Goal Achieved Text=Congratulations! You have achieved market dominance in the food and beverage industry and your corporation's market cap has increased substantially. Your board of directors are extremely pleased with your performance and support your plan for entering new markets to drive further revenue growth.
+Goal Description=SCEN04 GD1
+Goal Achieved Text=SCEN04 GAT1
 
 Number of Game Years=30
 
@@ -76,8 +78,8 @@ Unlock product=All
 //-------------------------------------------------------------------//
 
 [MAIN GOAL]
-Goal Title=Multinational Conglomerate 
-Goal Description=With your success in the food and beverage industry, your current goal is to diversify your business and further grow your corporation into a multinational conglomerate with a market capitalization of $1 billion and an annual revenue of at least $800 million. 
+Goal Title=Multinational Conglomerate
+Goal Description=SCEN04 GD0
 
 Number of Game Years=50
 
@@ -85,7 +87,7 @@ Parent Goal=Food and Beverage Dominance
 
 [MAIN GOAL VALUES]
 Player Company Annual Revenue=800
-Player Company Market Cap=600 
+Player Company Market Cap=1000 
 
 [MAIN GOAL PRODUCTS]
 Beverage
