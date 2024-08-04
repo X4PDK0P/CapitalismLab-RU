@@ -9691,7 +9691,7 @@ LIVESTOCK|
 ДОМАШНИЙ СКОТ|
 ~
 billion x |
-миллиард x |
+млрд. x |
 ~
 CORPORATE COLOR|
 ЦВЕТ КОРПОРАЦИИ|
@@ -9835,7 +9835,7 @@ Total Dividends Paid|
 Всего выплачено дивидендов|
 ~
 Max AI Software and Internet Companies|
-Макс. кол-во софтверных- и интернет-ИИ-компаний|
+Макс. кол-во ИИ-компаний в IT|
 ~
 Talent System|
 Система талантов|

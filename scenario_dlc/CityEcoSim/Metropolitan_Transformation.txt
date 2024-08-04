@@ -1,0 +1,94 @@
+[HEADER]
+Title=dlcECO3 Title
+Description=dlcECO3 Description
+
+Difficulty Rating=80
+DLC=CityEcoSim
+Survival Mode=No
+
+[ENVIRONMENT]
+Number of Cities=2
+Your Start-up Capital=High
+Random Events=Occasional
+Game Starting Year=1990
+Retail Store Type=Many
+Technology Disruption=On
+Stock Market=Yes
+Alternative Stock Sim=Yes
+Boom-Bust Cycle Volatility=Moderate
+Macro Economy Realism=High
+Inflation=Inverse
+Inflation Strength=Normal
+
+[CITIES]
+City=Seoul
+Population=500000
+Real Wage Rate=50
+
+City=Busan
+Population=300000
+Real Wage Rate=35
+
+[COMPETITORS]
+Number of Competitors=15
+Competitor Start-up Capital=Moderate
+AI Expansion Aggressiveness=Moderate
+AI Pricing Aggressiveness=Moderate
+AI Expertise Level=Moderate
+AI Tech Head Start=None
+Show Competitor Trade Secrets=Yes
+AI Friendly Merger=No
+Competence of Local Competitors=Moderate
+
+[IMPORTS]
+Consumer Goods Seaports=2
+Industrial Goods Seaports=2
+Constant Import Supply=No
+Import Quality=Moderate
+
+//-------------------------------------------------------------------//
+
+[MAIN GOAL]
+Goal Title=Growing the Cities
+Goal Description=dlcECO3 GD0
+
+Number of Game Years=50
+
+[MAIN GOAL VALUES]
+City population=1000000, Seoul
+Mayor approval rating=60, Seoul
+
+City population=800000, Busan
+Mayor approval rating=60, Busan
+
+
+[MAIN GOAL REWARDS]
+Score change=200
+
+//-------------------------------------------------------------------//
+
+[SUBGOAL]
+Goal Title=Corporate Performance
+Goal Description=dlcECO3 GD1
+Goal Achieved Text=dlcECO3 GAT1
+
+[SUBGOAL VALUES]
+Player Company Annual Revenue=500
+Player Company Annual Profit=50
+
+[SUBGOAL REWARDS]
+Score change=100
+
+//-------------------------------------------------------------------//
+
+[SUBGOAL]
+Goal Title=Political Influence
+Goal Description=dlcECO3 GD2
+Goal Achieved Text=dlcECO3 GAT2
+
+[SUBGOAL VALUES]
+Influence Score=100
+
+[SUBGOAL REWARDS]
+Score change=100
+

@@ -1,0 +1,3 @@
+[Livestock Raising Unit]
+~Livestock Name - Название домашнего скота~
+Вид выращиваемого скота.

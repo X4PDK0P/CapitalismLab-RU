@@ -1,0 +1,68 @@
+[HEADER]
+Title=dlcSUB2 Title
+Description=dlcSUB2 Description
+
+Difficulty Rating=80
+DLC=Subsidiary
+
+[ENVIRONMENT]
+Subsidiaries=2
+Number of Cities=5
+Your Start-up Capital=High
+Random Events=Occasional
+Game Starting Year=1990
+Retail Store Type=Many
+Technology Disruption=On
+Stock Market=Yes
+Alternative Stock Sim=Yes
+Boom-Bust Cycle Volatility=Moderate
+Macro Economy Realism=High
+Inflation=Inverse
+Inflation Strength=Normal
+
+[COMPETITORS]
+Number of Competitors=25
+Competitor Start-up Capital=Moderate
+AI Expansion Aggressiveness=Moderate
+AI Pricing Aggressiveness=Moderate
+AI Expertise Level=Moderate
+AI Tech Head Start=None
+Show Competitor Trade Secrets=Yes
+AI Friendly Merger=No
+Competence of Local Competitors=Moderate
+
+[IMPORTS]
+Consumer Goods Seaports=2
+Industrial Goods Seaports=2
+Constant Import Supply=No
+Import Quality=High
+
+//-------------------------------------------------------------------
+
+[MAIN GOAL]
+Goal Title=Strategic Positioning
+Goal Description=dlcSUB2 GD0
+
+Number of Game Years=80
+
+[MAIN GOAL VALUES]
+Subsidiary Annual Revenue=800,2
+Subsidiary Annual Profit=100,2
+
+[MAIN GOAL REWARDS]
+Score change=200
+
+//-------------------------------------------------------------------
+
+[SUBGOAL]
+Goal Title=High Net Worth Subsidiaries
+Goal Description=dlcSUB2 GD1
+Goal Achieved Text=dlcSUB2 GAT1
+
+[SUBGOAL VALUES]
+Subsidiary Net Worth=1000,2
+
+[SUBGOAL REWARDS]
+Score change=100
+Player expertise change=retail, 60
+
