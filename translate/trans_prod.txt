@@ -1,0 +1,26 @@
+﻿Soccer Shoes|
+Футбольные бутсы
+~
+Station Vagon|
+Авто фургонного типа
+~
+High Capacity Van|
+Авто тяжелый грузовой
+~
+Amoxicillin|
+Амоксициллин
+~
+Penicillin|
+Пенициллин
+~
+Tetracycline|
+Тетрациклин
+~
+Zithromax|
+Цитромакс
+~
+Super+ Gasoline|
+Высокооктановый бензин
+~
+
+

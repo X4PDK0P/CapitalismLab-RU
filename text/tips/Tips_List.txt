@@ -1,0 +1,3 @@
+Скорость игры, Game_Speed.txt
+Клавиши просмотра списка, List_Box_Browsing_Keys.txt
+Корректировка цен с учетом инфляции, Auto_Adjust_Prices.txt

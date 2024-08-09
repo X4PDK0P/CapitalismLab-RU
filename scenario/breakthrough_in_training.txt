@@ -1,6 +1,6 @@
 [HEADER]
-Title=Breakthrough in Training
-Description=Годы исследований в методологии обучения в рамках консорциума ведущих бизнес-школ, привели, наконец, к удивительным результатам.^^Новая методика повышает эффективность обучения на целых 100%, и компании уже начинают применять её по всему земному шару.^^Ваша компания тоже запрыгнула на этот поезд и планирует так же значительно увеличить производительность рабочей силы.
+Title=SCEN03 Title
+Description=SCEN03 Description
 
 Difficulty Rating=90
 
@@ -13,6 +13,7 @@ Retail Store Type=Many
 Technology Disruption=On
 Stock Market=Yes
 Alternative Stock Sim=Yes
+Boom-Bust Cycle Volatility=Moderate
 Macro Economy Realism=High
 Inflation=Inverse
 Inflation Strength=Normal
@@ -20,8 +21,10 @@ Inflation Strength=Normal
 [COMPETITORS]
 Number of Competitors=20
 Competitor Start-up Capital=Moderate  
-Competitor Aggressiveness=Moderate  
-Competitor Expertise Level=Moderate
+AI Expansion Aggressiveness=Moderate 
+AI Pricing Aggressiveness=Moderate 
+AI Expertise Level=Moderate
+AI Tech Head Start=None
 Show Competitor Trade Secrets=Yes
 AI Friendly Merger=No
 Competence of Local Competitors=Moderate 
@@ -38,8 +41,8 @@ Training Effect Modifier=200
 //-------------------------------------------------------------------//
 
 [MAIN GOAL]
-Goal Title=Aggressive Growth Plan 
-Goal Description=With the breakthrough in training, you now have the tool to improve the operating efficiency of your corporation to new heights and deliver truly outstanding financial returns to your shareholders. 
+Goal Title=Aggressive Growth Plan
+Goal Description=SCEN03 GD0
 
 Number of Game Years=70
 
@@ -55,9 +58,8 @@ Score change=200
 
 [SUBGOAL]
 Goal Title=Operating Performance Target
-Goal Description=Leverage the new training methodology to improve your corporation's operating profit margin. 
-
-Goal Achieved Text=Congratulations! You have significantly improved your corporation's operating profit margin. 
+Goal Description=SCEN03 GD1
+Goal Achieved Text=SCEN03 GAT1
 
 [SUBGOAL VALUES]
 Operating Profit Margin=15
@@ -69,10 +71,9 @@ Corporate Cash Change=100
 //-------------------------------------------------------------------//
 
 [SUBGOAL]
-Goal Title=Growing the Talent Base. 
-Goal Description=Be more aggressive in hiring and look for new talents to join your corporation.
-
-Goal Achieved Text=Congratulations! Your corporation has reached the milestone of having a staff size surpassing 1000 people. 
+Goal Title=Growing the Talent Base
+Goal Description=SCEN03 GD2
+Goal Achieved Text=SCEN03 GAT2
 
 [SUBGOAL VALUES]
 Total Number of Employees=1000

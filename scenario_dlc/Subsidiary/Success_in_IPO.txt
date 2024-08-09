@@ -1,0 +1,71 @@
+[HEADER]
+Title=dlcSUB3 Title
+Description=dlcSUB3 Description
+
+Difficulty Rating=90
+DLC=Subsidiary
+
+[ENVIRONMENT]
+Subsidiaries=2
+Number of Cities=5
+Your Start-up Capital=High
+Random Events=Occasional
+Game Starting Year=1990
+Retail Store Type=Many
+Technology Disruption=On
+Stock Market=Yes
+Alternative Stock Sim=Yes
+Boom-Bust Cycle Volatility=Moderate
+Macro Economy Realism=High
+Inflation=Inverse
+Inflation Strength=Normal
+
+[COMPETITORS]
+Number of Competitors=25
+Competitor Start-up Capital=High
+AI Expansion Aggressiveness=Moderate
+AI Pricing Aggressiveness=Moderate
+AI Expertise Level=Moderate
+AI Tech Head Start=None
+Show Competitor Trade Secrets=Yes
+AI Friendly Merger=No
+Competence of Local Competitors=Moderate
+
+[IMPORTS]
+Consumer Goods Seaports=2
+Industrial Goods Seaports=2
+Constant Import Supply=No
+Import Quality=High
+
+//-------------------------------------------------------------------
+
+[MAIN GOAL]
+Goal Title=Success in IPO
+Goal Description=dlcSUB3 GD0
+
+Number of Game Years=80
+
+[MAIN GOAL VALUES]
+Subsidiary IPO=2
+Subsidiary Annual Revenue=1000,2
+Subsidiary Annual Profit=150,2
+
+[MAIN GOAL REWARDS]
+Score change=250
+
+//-------------------------------------------------------------------
+
+[SUBGOAL]
+Goal Title=Soaring Stock Price
+Goal Description=dlcSUB3 GD1
+Goal Achieved Text=dlcSUB3 GAT1
+
+Number of Game Years=20
+
+[SUBGOAL VALUES]
+Stock Price=500
+
+[SUBGOAL REWARDS]
+Score change=150
+Player expertise change=training, 60
+

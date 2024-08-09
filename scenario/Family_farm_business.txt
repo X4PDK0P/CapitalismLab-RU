@@ -1,0 +1,99 @@
+[HEADER]
+Title=SCEN11 Title
+Description=SCEN11 Description
+
+Difficulty Rating=120
+
+[ENVIRONMENT]
+Number of Cities=4
+Your Start-up Capital=High
+Random Events=Occasional
+Game Starting Year=1990
+Retail Store Type=Many
+Technology Disruption=On
+Stock Market=Yes
+Alternative Stock Sim=Yes
+Boom-Bust Cycle Volatility=Moderate
+Macro Economy Realism=High
+Inflation=Inverse
+Inflation Strength=Normal
+
+[CITIES]
+City=London
+City=Shanghai
+City=San Francisco
+City=Vancouver
+
+[COMPETITORS]
+Number of Competitors=30
+Competitor Start-up Capital=High
+AI Expansion Aggressiveness=High
+AI Pricing Aggressiveness=High
+AI Expertise Level=High
+AI Tech Head Start=None
+Show Competitor Trade Secrets=Yes
+AI Friendly Merger=Yes
+Competence of Local Competitors=Moderate
+
+[IMPORTS]
+Consumer Goods Seaports=2
+Industrial Goods Seaports=2
+Constant Import Supply=No
+Import Quality=Low
+
+[LOCKS]
+Firm, Factory
+Firm, Logging Camp
+Firm, Mine
+Firm, Oil Well
+
+[PLAYER EXPERTISE]
+Farming=80
+
+//-------------------------------------------------------------------//
+
+[SUBGOAL]
+Goal Title=Farming and Retail Dominance
+Goal Description=SCEN11 GD1
+Goal Achieved Text=SCEN11 GAT1
+
+Number of Game Years=30
+
+[SUBGOAL INDUSTRIES]
+Retail
+Farming
+
+[SUBGOAL REWARDS]
+Score change=100
+Personal Cash Change=10
+Corporate Cash Change=50
+Unlock firm=Factory
+Unlock firm=Logging Camp
+Unlock firm=Mine
+Unlock firm=Oil Well
+
+//-------------------------------------------------------------------//
+
+[MAIN GOAL]
+Goal Title=Surpassing Family Expectation
+Goal Description=SCEN11 GD0
+
+Number of Game Years=30
+
+Parent Goal=Farming and Retail Dominance
+
+[MAIN GOAL VALUES]
+Player Company Annual Revenue=1000
+Player Company Annual Profit=100
+Player Company Net Worth=800
+Number of product classes being produced=7
+
+[MAIN GOAL REWARDS]
+Score change=200
+
+//-------------------------------------------------------------------//
+
+[CHALLENGE GAME]
+Number of Game Years=50
+Ranking Method=Score
+

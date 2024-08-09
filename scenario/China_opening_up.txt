@@ -1,0 +1,97 @@
+[HEADER]
+Title=SCEN07 Title
+Description=SCEN07 Description
+
+Difficulty Rating=110
+
+[ENVIRONMENT]
+Number of Cities=5
+Your Start-up Capital=High
+Random Events=Occasional 
+Game Starting Year=1990
+Retail Store Type=Many
+Technology Disruption=On
+Stock Market=Yes
+Alternative Stock Sim=Yes
+Boom-Bust Cycle Volatility=Moderate
+Macro Economy Realism=High
+Inflation=Inverse
+Inflation Strength=Normal
+
+[CITIES]
+City=Beijing
+City=Shanghai
+City=Guangzhou
+City=Chengdu
+City=New York City
+
+[COMPETITORS]
+Number of Competitors=25
+Competitor Start-up Capital=High  
+AI Expansion Aggressiveness=Moderate 
+AI Pricing Aggressiveness=Moderate 
+AI Expertise Level=Moderate
+AI Tech Head Start=None
+Show Competitor Trade Secrets=Yes
+AI Friendly Merger=No
+Competence of Local Competitors=Moderate 
+
+[IMPORTS]
+Consumer Goods Seaports=2
+Industrial Goods Seaports=2
+Constant Import Supply=No
+Import Quality=Moderate 
+
+[LOCKS]
+Firm, Logging Camp
+Firm, Mine
+Firm, Oil Well
+Firm, TV Station
+Firm, Newspaper Publisher
+Firm, Radio Station
+Firm, Apartment
+Firm, Commercial Building
+Firm, Civic Building
+Firm, Sports Facilities
+
+//-------------------------------------------------------------------
+
+[MAIN GOAL]
+Goal Title=Seize the Opportunities
+Goal Description=SCEN07 GD0
+
+Number of Game Years=50
+
+[MAIN GOAL VALUES]
+Player Company Net Worth=250
+Player Company Annual Revenue=300
+
+[MAIN GOAL INDUSTRIES]
+Retail 
+Manufacturing 
+
+[MAIN GOAL REWARDS] 
+Score change=200
+
+//-------------------------------------------------------------------//
+
+[SUBGOAL]
+Goal Title=Upstream Business
+Goal Description=SCEN07 GD1
+Goal Achieved Text=SCEN07 GAT1
+
+[SUBGOAL VALUES]
+Player Company Net Worth=150
+Player Company Annual Revenue=200
+
+[SUBGOAL REWARDS] 
+Unlock Firm=Logging Camp
+Unlock Firm=Mine
+Unlock Firm=Oil Well
+
+//-------------------------------------------------------------------//
+
+[CHALLENGE GAME]
+Number of Game Years=50
+Ranking Method=Score
+

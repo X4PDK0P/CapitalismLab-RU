@@ -1,0 +1,95 @@
+﻿AUTOSAVE EVERY 10 DAYS|
+Автосохранение каждые 10 дней
+~
+This script modifies the autosave setting to perform an autosave once every 10 days.|
+Этот скрипт изменяет настройки автосохранения, чтобы автосохранение выполнялось раз в 10 дней.
+~
+AUTOSAVE EVERY 15 MINUTES IN REAL TIME|
+Автосохранение каждые 15 минут реального времени
+~
+This script modifies the autosave setting to perform an autosave once every 15 minutes in real time|
+Этот сценарий изменяет настройки автосохранения, чтобы автосохранение выполнялось раз в 15 минут реального времени
+~
+GAME STARTING YEAR 1950|
+Игра начинается в 1950 году
+~
+Game Starting Year 1950.|
+Игра начинается в 1950 году
+~
+RW SCRIPT: 15 BIGGEST CITY - START YEAR 2009 - EXTREME DIFFICULT|
+Real World: 15 городов, 2009, очень сложно
+~
+RW script: 15 BIGGEST CITY - Start year 2009 - Extreme difficult|
+Real World сценарий:^15 САМЫХ БОЛЬШИХ ГОРОДОВ^Год старта 2009^Уровень чрезвычайно сложный
+~
+20 PROC SALARIES FOR YOUR SENIOR MANAGEMENT STAFF|
+20 процентов размер з.п. высшего руковод. состава
+~
+This script modifies the salaries of your senior management staff to 20 proc of their original values.|
+Этот скрипт изменяет размер зарплаты вашего высшего руководящего состава на 20 процентов от их первоначальных значений.
+~
+50 PROC SALARIES FOR YOUR SENIOR MANAGEMENT STAFF|
+50 процентов размер з.п. высшего руковод. состава
+~
+This script modifies the salaries of your senior management staff to 50 proc of their original values.|
+Этот скрипт изменяет размер зарплаты вашего высшего руководящего состава на 50 процентов от их первоначальных значений.
+~
+200 PROC TECHNOLOGY ACQUISITION COSTS|
+200 процентов затрат на приобретение технологий
+~
+This script modifies technology acquisition costs to 200 proc of their original values.|
+Этот скрипт изменяет затраты на приобретение технологий до 200 процентов от их первоначальной стоимости.
+~
+50 PROC TECHNOLOGY ACQUISITION COSTS|
+50 процентов затрат на приобретение технологий
+~
+This script modifies technology acquisition costs to 50 proc of their original values.|
+Этот скрипт изменяет затраты на приобретение технологий до 50 процентов от их первоначальной стоимости.
+~
+200 PROC TRAINING EFFECT|
+200 процентов эффект обучения
+~
+This script doubles the training effect on your staff. In other words, the experience levels of your staff will increase twice as fast when the same amount of training expenditure.|
+Этот скрипт удваивает эффект обучения для ваших сотрудников. Другими словами, уровень опыта ваших сотрудников будет увеличиваться в два раза быстрее при тех же затратах на обучение.
+~
+UNLIMITED NATURAL RESOURCES|
+Неограниченные природные ресурсы
+~
+When a natural resource firm (mine/oil well/logging camp) has used up its reserve, instead of stopping its operation, it will continue to produce the natural resources with a new recurring cost.|
+Когда предприятие по добыче природных ресурсов (шахта/нефтяная скважина/лесозаготовка) израсходует весь свой запас, вместо того, чтобы прекратить свою работу, оно продолжит добычу природных ресурсов с новыми повторяющимися затратами.
+~
+Complete Domination|
+Абсолютное превосходство
+~
+This is your main goal.|
+Это ваша главная цель.
+~
+Partial subgoal.|
+Дополнительное задание.
+~
+Play for a while to unlock a city.|
+Поиграйте некоторое время, чтобы разблокировать город.
+~
+After some time, you will unlock a city.|
+Через некоторое время вы разблокируете город.
+~
+You have gained access to Mumbai.|
+Вы получили доступ в Мумбаи.
+~
+You have failed to unlock the next city.|
+Вам не удалось разблокировать следующий город.
+~
+
+
+
+
+
+
+
+
+
+
+
+
+
+
