@@ -12249,7 +12249,15 @@ Chief Marketing Officer's Office|
 Chief Technical Officer's Office|
 Офис технического директора|
 ~
-
+Community Engagement Department|
+Отдел по взаимодействию с сообществом|
+~
+Chief Executive Officer's Office|
+Офис генерального директора|
+~
+Max E-Commerce Share|
+Макс. доля в электронной коммерции|
+~
 
 
 
