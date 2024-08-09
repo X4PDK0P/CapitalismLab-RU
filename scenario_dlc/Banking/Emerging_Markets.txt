@@ -1,0 +1,74 @@
+[HEADER]
+Title=Emerging Markets, Emerging Fortunes
+Description=In the wake of widespread economic liberalization across South America, you have raised substantial investment capital. As nations transition to free markets, you see a golden opportunity to establish a continental banking powerhouse. Navigate political reforms, emerging markets, and fierce competition to expand your financial empire.^^Your goal is to build the largest and most influential banking institution in South America, shaping the economic future of a continent embracing new economic models and regional integration.
+Difficulty Rating=100
+DLC=Banking
+Reset All Settings=Yes
+
+[ENVIRONMENT]
+Number of Cities=5
+Your Start-up Capital=Very High
+Random Events=Occasional 
+Game Starting Year=1990
+Retail Store Type=Many
+Technology Disruption=On
+Stock Market=Yes
+Alternative Stock Sim=Yes
+Boom-Bust Cycle Volatility=Moderate
+Macro Economy Realism=High
+Inflation=Inverse
+Inflation Strength=Normal
+
+[CITIES]
+City=Recife
+City=Rio De Janeiro
+City=Buenos Aires
+City=Santiago
+City=Bogota
+
+[COMPETITORS]
+Number of Competitors=40
+Competitor Start-up Capital=Very High  
+AI Expansion Aggressiveness=High
+AI Pricing Aggressiveness=Moderate 
+AI Expertise Level=High
+AI Tech Head Start=None
+Show Competitor Trade Secrets=Yes
+AI Friendly Merger=Yes
+Competence of Local Competitors=Moderate 
+
+[IMPORTS]
+Consumer Goods Seaports=2
+Industrial Goods Seaports=2
+Constant Import Supply=No
+Import Quality=Moderate 
+
+[BANKING AND FINANCE DLC]
+Number of AI Companies Focused on Banking=Very High
+Tendency of AI to Set Up Banks=Very High
+
+
+//-------------------------------------------------------------------//
+
+[MAIN GOAL]
+Goal Title=Emerging Markets, Emerging Fortunes
+Goal Description=In the wake of widespread economic liberalization across South America, you have raised substantial investment capital. As nations transition to free markets, you see a golden opportunity to establish a continental banking powerhouse. Navigate political reforms, emerging markets, and fierce competition to expand your financial empire.
+Goal Achieved Text=Congratulations! Your financial acumen and strategic prowess have transformed your venture into South America's preeminent banking institution.
+Number of Game Years=30
+
+[MAIN GOAL VALUES]
+Player Company Net Worth=3000
+Player Company Annual Profit=300
+
+[MAIN GOAL INDUSTRIES]
+Bank
+
+[MAIN GOAL REWARDS] 
+Score change=500
+
+//-------------------------------------------------------------------//
+
+[CHALLENGE GAME]
+Number of Game Years=30
+Ranking Method=Goal+Score
+

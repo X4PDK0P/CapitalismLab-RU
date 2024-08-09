@@ -1,0 +1,73 @@
+[HEADER]
+Title=Underdog Banker's Aussie Triumph
+Description=You're an entrepreneur in Australia with big dreams but little capital. You have an ambitious goal of building the largest bank in the country. But there's a catch - you don't have enough capital to start a bank right away.^^Your journey involves strategically expanding into business sectors to create a steady cash flow while accumulating the necessary capital to launch your banking operations. Once established, you must grow your bank across major Australian cities and seize market shares from established institutions.^^In this scenario, the "Realistic Loan Demand" feature is active. Bank loan demand is not unlimited but instead directly tied to the combined GDP of all cities, reflecting a more true-to-life banking environment.
+Difficulty Rating=160
+DLC=Banking
+Reset All Settings=Yes
+
+[ENVIRONMENT]
+Number of Cities=5
+Your Start-up Capital=Low
+Random Events=Occasional
+Game Starting Year=1990
+Retail Store Type=Many
+Technology Disruption=On
+Stock Market=Yes
+Alternative Stock Sim=Yes
+Boom-Bust Cycle Volatility=Moderate
+Macro Economy Realism=High
+Inflation=Inverse
+Inflation Strength=Normal
+
+[CITIES]
+City=Sydney
+City=Melbourne
+City=Brisbane
+City=Adelaide
+City=Perth
+
+[COMPETITORS]
+Number of Competitors=40
+Competitor Start-up Capital=Very High  
+AI Expansion Aggressiveness=High
+AI Pricing Aggressiveness=Moderate 
+AI Expertise Level=High
+AI Tech Head Start=None
+Show Competitor Trade Secrets=Yes
+AI Friendly Merger=Yes
+Competence of Local Competitors=Moderate 
+
+[IMPORTS]
+Consumer Goods Seaports=2
+Industrial Goods Seaports=2
+Constant Import Supply=No
+Import Quality=Moderate 
+
+[BANKING AND FINANCE DLC]
+Number of AI Companies Focused on Banking=High
+Tendency of AI to Set Up Banks=High
+Realistic Loan Demand=Yes
+
+//-------------------------------------------------------------------//
+
+[MAIN GOAL]
+Goal Title=Underdog Banker's Aussie Triumph
+Goal Description=You're an entrepreneur in Australia with big dreams but little capital. You have an ambitious goal of building the largest bank in the country. You must strategically expand into business sectors to create a steady cash flow while accumulating the necessary capital to launch your banking operations. 
+Goal Achieved Text=Congratulations! From humble beginnings, you've outsmarted the big players and built Australia's largest bank, proving that with grit and savvy, even a small startup can reshape the financial landscape of an entire nation.
+Number of Game Years=50
+
+[MAIN GOAL VALUES]
+Lifetime Shareholder Return=3000
+
+[MAIN GOAL INDUSTRIES]
+Bank
+
+[MAIN GOAL REWARDS] 
+Score change=800
+
+//-------------------------------------------------------------------//
+
+[CHALLENGE GAME]
+Number of Game Years=50
+Ranking Method=Goal+Score
+

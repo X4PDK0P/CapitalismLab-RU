@@ -1,0 +1,118 @@
+[HEADER]
+Title=Conquering America's Insurance Market
+Description=You're a seasoned executive with extensive experience in the car insurance industry. After years of success at a renowned firm, you've decided to strike out on your own and expand into the broader insurance market within the United States.^^You'll spend the first two years researching market trends, consumer needs, and competitive landscapes before launching in your insurance company.^^With strategic planning and execution, you aspire to outgrow established players and become America's leading insurance provider. Can you transform your industry knowledge into market dominance?
+Difficulty Rating=140
+DLC=Banking
+Reset All Settings=Yes
+
+[ENVIRONMENT]
+Number of Cities=5
+Your Start-up Capital=Very High
+Random Events=Occasional 
+Game Starting Year=1990
+Retail Store Type=Many
+Technology Disruption=On
+Stock Market=Yes
+Alternative Stock Sim=Yes
+Boom-Bust Cycle Volatility=Moderate
+Macro Economy Realism=High
+Inflation=Off
+
+[CITIES]
+City=New York City
+City=Atlanta
+City=Chicago
+City=San Francisco
+City=Seattle
+
+[COMPETITORS]
+Number of Competitors=40
+Competitor Start-up Capital=Very High  
+AI Expansion Aggressiveness=High
+AI Pricing Aggressiveness=Moderate 
+AI Expertise Level=High
+AI Tech Head Start=None
+Show Competitor Trade Secrets=Yes
+AI Friendly Merger=Yes
+Competence of Local Competitors=Moderate 
+
+[IMPORTS]
+Consumer Goods Seaports=2
+Industrial Goods Seaports=2
+Constant Import Supply=No
+Import Quality=Moderate 
+
+
+[SPECIAL RULES]
+Years of Advanced Start for AI=2
+
+//-------------------------------------------------------------------//
+
+[MAIN GOAL]
+Goal Title=Conquering America's Insurance Market
+Goal Description=After years of success at a renowned firm, you've decided to strike out on your own and expand into the broader insurance market within the United States. You'll spend the first two years researching the market before launching in your insurance company. 
+Goal Achieved Text=Congratulations! You've masterfully conquered America's insurance market, reshaping the landscape and setting new standards for the entire industry!
+Number of Game Years=40
+
+[MAIN GOAL VALUES]
+Player Company Net Worth=2000
+
+[MAIN GOAL INDUSTRIES]
+Insurance
+
+[MAIN GOAL REWARDS] 
+Score change=700
+
+//-------------------------------------------------------------------//
+
+[SUBGOAL]
+Goal Title=Stock Price Milestone 1
+Goal Description=A key milestone for this period is achieving a company stock price of $20 per share. (Hint: the Knowledge Point reward from this goal can be used to increase your advertising and training skills which will increase the effectiveness of your insurance branding and staff training.)
+Goal Achieved Text=Congratulations on reaching the significant milestone of a $20 per share stock price! This achievement is a clear reflection of your strong leadership.
+
+[SUBGOAL VALUES]
+Stock Price=20
+
+[SUBGOAL REWARDS] 
+Corporate Cash Change=100
+Knowledge Points=40
+
+//-------------------------------------------------------------------//
+
+[SUBGOAL]
+Goal Title=Stock Price Milestone 2
+Goal Description=Building upon our previous success, a critical milestone for this next phase is achieving a company stock price of $40 per share. This accomplishment will further solidify your strong leadership as CEO.
+Goal Achieved Text=Congratulations on this incredible achievement! Reaching a $40 per share stock price is a testament to your exceptional vision.
+
+Parent Goal=Stock Price Milestone 1
+
+[SUBGOAL VALUES]
+Stock Price=40
+
+[SUBGOAL REWARDS] 
+Corporate Cash Change=100
+Knowledge Points=40
+
+//-------------------------------------------------------------------//
+
+[SUBGOAL]
+Goal Title=Stock Price Milestone 3
+Goal Description=Reaching a company stock price of $100 per share represents a truly ambitious target for this period. Achieving this milestone would be a testament to your exceptional leadership as CEO.
+Goal Achieved Text=This is a moment of immense pride for the entire company! Achieving a $100 per share stock price is a remarkable feat, demonstrating your extraordinary leadership.
+
+Parent Goal=Stock Price Milestone 2
+
+[SUBGOAL VALUES]
+Stock Price=80
+
+[SUBGOAL REWARDS] 
+Corporate Cash Change=100
+Knowledge Points=40
+
+
+//-------------------------------------------------------------------//
+
+[CHALLENGE GAME]
+Number of Game Years=40
+Ranking Method=Goal+Score
+
