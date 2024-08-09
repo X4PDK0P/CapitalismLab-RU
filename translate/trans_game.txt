@@ -12258,7 +12258,12 @@ Chief Executive Officer's Office|
 Max E-Commerce Share|
 Макс. доля в электронной коммерции|
 ~
-
+Congratulations! You have successfully formed a new political party.|
+Поздравляем! Вы успешно создали новую политическую партию.|
+~
+Congratulations! Your company has gone public successfully and raised % !|
+Поздравляем! Ваша компания успешно вышла на биржу и привлекла % !|
+~
 
 
 
