@@ -753,7 +753,7 @@ You do not have enough PERSONAL money|
 У вас не хватает ваших ЛИЧНЫХ средств.|
 ~
 for building your mansion.|
-|
+для строительства вашего особняка.|
 ~
  buys a Mansion in |
  покупает поместье в городе |
@@ -1761,7 +1761,7 @@ FARMER'S GUIDE|
 СПРАВОЧНИК ФЕРМЕРА|
 ~
 MANAGER'S GUIDE|
-MANAGER'S GUIDE|
+РУКОВОДСТВО МЕНЕДЖЕРА|
 ~
 Purchasing Unit|
 Отдел покупок
@@ -9837,6 +9837,9 @@ Total Dividends Paid|
 Max AI Software and Internet Companies|
 Макс. кол-во ИИ-компаний в IT|
 ~
+Max E-commerce Share|
+Макс. доля в электронной коммерции|
+~
 Talent System|
 Система талантов|
 ~
@@ -12178,10 +12181,10 @@ Private Only|
 Частный сектор
 ~
 @ Sorry, the firms you chose on this list do not have any advertising units.|
-@ Desculpe, as empresas que você escolheu nesta lista não têm nenhuma unidade de publicidade.
+@ К сожалению, выбранные вами фирмы в этом списке не имеют рекламных блоков.
 ~
 @ Sorry, you cannot disable this product class.|
-@ Desculpe, você não pode desativar esta classe de produto.
+@ К сожалению, вы не можете отключить этот класс продуктов.
 ~
 Sorry, you do not have permission to set up business in this city.|
 К сожалению, у вас нет разрешения на организацию бизнеса в этом городе.
@@ -12222,7 +12225,9 @@ Cash Shortfall|
 Launched 1 day ago|
 Началось 1 день назад
 ~
-
+Global Stock Performance|
+Глобальная динамика акций
+~
 
 
 
