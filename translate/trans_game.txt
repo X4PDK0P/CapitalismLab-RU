@@ -12228,7 +12228,27 @@ Launched 1 day ago|
 Global Stock Performance|
 Глобальная динамика акций
 ~
-
+Human Resources Department|
+Отдел кадров|
+~
+Public Relations Department|
+Отдел по связям с общественностью|
+~
+Investor Relations Department|
+Отдел по связям с инвесторами|
+~
+Chief Executive Officer Office|
+Офис генерального директора|
+~
+Chief Operating Officer's Office|
+Офис операционного директора|
+~
+Chief Marketing Officer's Office|
+Офис директора по маркетингу|
+~
+Chief Technical Officer's Office|
+Офис технического директора|
+~
 
 
 
