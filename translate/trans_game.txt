@@ -197,6 +197,9 @@ Add All|
 Additional Funding|
 Дополнит. финансирование|
 ~
+Add Inventory Unit|
+Добавить склад|
+~
 Adjust advertising spending based on inflation|
 Скорректировать расходы на рекламу в зависимости от инфляции|
 ~
@@ -612,7 +615,7 @@ Windowed Mode|
 В окне|
 ~
 Sort by:|
-Сортировка:|
+Сорт.:|
 ~
 Title|
 Имя|
@@ -2227,6 +2230,12 @@ Parent Company Share Ownership|
 ~
 Current Stock Price|
 Текущая рыночная цена|
+~
+current|
+текущий|
+~
+Current|
+Текущий|
 ~
 Number of New Shares|
 Количество новых акций|
@@ -10078,7 +10087,7 @@ Career|
 Карьера|
 ~
 Sort by|
-Сортировка :|
+Сорт:|
 ~
 Wealth|
 Богатство|
@@ -10106,6 +10115,12 @@ Marketing Expertise|
 ~
 Training Expertise|
 Опыт в обучении|
+~
+Career History|
+История карьеры|
+~
+Industry Ex. Name|
+Опыт по отрасли |
 ~
 My Party Only|
 Моя партия|
@@ -10706,6 +10721,9 @@ Set up your factory to manufacture this product|
 ~
 SET UP FACTORY|
 НАСТРОИТЬ ЗАВОД|
+~
+SET UP ON FARM|
+Запуск производства|
 ~
 SET UP FACTORY PRODUCTION|
 НАЛАДИТЬ ПРОИЗВОДСТВО НА ЗАВОДЕ|

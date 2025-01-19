@@ -364,7 +364,7 @@ RMONEYS
 ~
 PREPARE
 Prepare Unit
-If this is enabled and you are using a #MOD# with defined #service firms#, you will be able to set up #Prepare Units# in #service firms#.
+Если эта функция включена и вы используете #MOD# с определёнными #сервисными предприятиями#, вы сможете настроить #подготовительные подразделения# в #сервисными предприятиями#.
 ~
 IMPORT
 Фирма-импортер
