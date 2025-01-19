@@ -23,13 +23,13 @@ RW script: 15 BIGGEST CITY - Start year 2009 - Extreme difficult|
 Real World сценарий:^15 САМЫХ БОЛЬШИХ ГОРОДОВ^Год старта 2009^Уровень чрезвычайно сложный
 ~
 20 PROC SALARIES FOR YOUR SENIOR MANAGEMENT STAFF|
-20 процентов размер з.п. высшего руковод. состава
+20% размер з.п. высшего руковод.
 ~
 This script modifies the salaries of your senior management staff to 20 proc of their original values.|
 Этот скрипт изменяет размер зарплаты вашего высшего руководящего состава на 20 процентов от их первоначальных значений.
 ~
-50 PROC SALARIES FOR YOUR SENIOR MANAGEMENT STAFF|
-50 процентов размер з.п. высшего руковод. состава
+50% salaries for your senior management staff|
+50% размер з.п. высшего руковод.
 ~
 This script modifies the salaries of your senior management staff to 50 proc of their original values.|
 Этот скрипт изменяет размер зарплаты вашего высшего руководящего состава на 50 процентов от их первоначальных значений.
@@ -79,9 +79,9 @@ You have gained access to Mumbai.|
 You have failed to unlock the next city.|
 Вам не удалось разблокировать следующий город.
 ~
-
-
-
+Multiple autosaves every 5 years.|
+До появления других функций автосохранения он не будет перезаписывать старые файлы автосохранения. Вместо этого он каждый раз записывает в новый файл, так что вам не придется беспокоиться о потере старых сохранений. У вас будет полная история точек сохранения, которая будет длиться столько, сколько вы захотите. Это идеально подходит для легкого перехода назад во времени, чтобы заново исследовать альтернативные стратегии в ключевых точках принятия решений.
+~
 
 
 

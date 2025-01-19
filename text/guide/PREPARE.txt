@@ -1,0 +1,14 @@
+[Prepare Unit (Service Firm)]
+
+В сервисной фирме продукты готовятся и продаются клиентам в рамках единой операции. В схеме 3×3 процесс приготовления (например, приготовление пиццы) структурно похож на производственный процесс. В нём есть входные блоки для получения ингредиентов и блок приготовления для изготовления продуктов. Затем блок приготовления соединяется с блоком продаж, что позволяет продавать продукты напрямую клиентам.^
+
+~Product Name - Наименование продукта~
+Тип продукта, который в данный момент производит подразделение.^
+~Product Stock - Запас продукта~
+В этой области отображается запас товара в единице измерения. Каждая ячейка представляет собой один груз товара. В каждом грузе может храниться определенное количество единиц товара.^
+
+~Raw Material Stock - Запас сырья~
+Запасы сырья представлены здесь рядом зелёных столбиков. Длина каждого столбика указывает на количество сырья, имеющегося на складе.^
+
+~Utilization - Индикатор загрузки~
+This brown bar shows the utilization of the unit. If this bar reaches its full length, the unit has reached its full capacity. It can prepare no more goods even if there is additional supply and demand. On the other hand, if this bar is short, this indicates that its facilities and resources are not being used effectively. This might contribute to the firm's low profitability.
